@@ -17,7 +17,7 @@ namespace StockControlProject.Api
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<StockControlContext>(Option =>
             {
-                Option.UseSqlServer("Server=HCT;Database=StockDB;Uid=sa;Pwd=1234;");
+                Option.UseSqlServer("Server=***;Database=***;Uid=***;Pwd=***;");
             });
             var app = builder.Build();
 

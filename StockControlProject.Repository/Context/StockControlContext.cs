@@ -12,7 +12,7 @@ namespace StockControlProject.Repository.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=HCT;Database=StockDB;Uid=sa;Pwd=1234;");
+            optionsBuilder.UseSqlServer("Server=***;Database=***;Uid=***;Pwd=***;");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
